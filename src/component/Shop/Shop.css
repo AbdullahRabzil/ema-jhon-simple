@@ -1,0 +1,25 @@
+.shop{
+    margin-left: 20px;
+   
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 46px;
+    margin-top: 112px;
+   
+   
+    
+}
+.order{
+    background-color: #EFE0B3;
+    padding: 10px;
+    margin-left: 5px;
+}
+.name{
+   font-size: medium;
+   text-align: center;
+}
