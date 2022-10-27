@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from "react";
+import useProducts from "../../hook/Order";
 import Cart from "../OrderCart/Cart";
 import Product from "../Product/Product";
 import "./Shop.css";
 
 const Shop = () => {
-  const [Products, setProducts] = useState([]);
+  const [Products, setProducts] = useProducts();
   const [cart, setCart] = useState([]);
-  useEffect(() => {
-    fetch("products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch("products.json")
+  //     .then((res) => res.json())
+  //     .then((data) => setProducts(data));
+  // }, []);
 
   const addToCartByClick = (product) => {
     const pushCart = [...cart, product];
