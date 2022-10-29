@@ -1,0 +1,111 @@
+.container {
+  margin: 0 auto;
+  width: 500px;
+  height: 600px;
+  background: #ffffff;
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  font-family: "Lato" inter, sans, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 42px;
+  letter-spacing: 0.0025em;
+  color: #2a414f;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.input-group input {
+  width: 415px;
+  height: 55px;
+  margin-left: 42px;
+  margin-bottom: 30px;
+  margin-top: 9px;
+  border: 2px solid #95a0a7;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input-group label {
+  width: 72px;
+  height: 20px;
+  margin-left: 48px;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  font-weight: 400;
+  color: #2a414f;
+}
+
+.input-group .button {
+  width: 422px;
+  height: 55px;
+  margin-left: 42px;
+  margin-bottom: 9px;
+  margin-top: 9px;
+  border: 2px solid #95a0a7;
+  border-radius: 5px;
+
+  font-family: "Lato" inter, sans, serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+
+  color: #0e161a;
+  background: rgba(255, 153, 0, 0.3);
+  border-radius: 5px;
+  border: none;
+}
+.input-group .create-new {
+  font-family: "Lato" inter, sans, serif;
+  margin: 0 auto;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.0025em;
+
+  color: #2a414f;
+}
+.input-group .create-new a {
+  text-decoration: none;
+  color: #ff9900;
+}
+
+.input-group .or {
+  text-align: center;
+  color: #95a0a7;
+  
+}
+
+.input-group .google-sign{
+    width: 422px;
+    height: 55px;
+    margin-left: 42px;
+    margin-bottom: 9px;
+    margin-top: 9px;
+    border: 2px solid #95a0a7;
+    border-radius: 5px;
+  
+    font-family: "Lato" inter, sans, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    
+    color: #2A414F;
+    
+}

@@ -7,7 +7,7 @@ const Order = () => {
     return (
         <div className='shop-con'>
             <div className="product-con">
-
+            
             </div>
             <div className="cart-con">
                 <Cart cart></Cart>
